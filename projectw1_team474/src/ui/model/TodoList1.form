@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.model.TodoList1">
+  <grid id="27dc6" binding="TodoList" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="600" height="400"/>
+    </constraints>
+    <properties>
+      <alignmentX value="1.0"/>
+      <alignmentY value="1.0"/>
+      <minimumSize width="387" height="148"/>
+      <preferredSize width="800" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="73d37" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code" size="48" style="1"/>
+          <foreground color="-4484941"/>
+          <text value="TodoList"/>
+        </properties>
+      </component>
+      <component id="d5ee6" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Letter Gothic Std" size="26" style="1"/>
+          <foreground color="-10984005"/>
+          <text value="ADD"/>
+        </properties>
+      </component>
+      <component id="7bfe" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Letter Gothic Std" size="26" style="1"/>
+          <foreground color="-10984005"/>
+          <text value="REMOVE"/>
+        </properties>
+      </component>
+      <component id="bfb33" class="javax.swing.JButton" binding="button3" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Letter Gothic Std" size="26" style="1"/>
+          <foreground color="-10984005"/>
+          <text value="SHOW"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
